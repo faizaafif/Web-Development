@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(244, 155, 170);
+}
+
+.fonts {
+    /*font and texts*/
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 45px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+    /*colour*/
+    color: darkred;
+}
+
+p {
+    /*font and texts*/
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 100%;
+    font-weight: 500;
+
+    /*colour*/
+    color: darkblue;
+}
+
+/* Types of color 
+
+color:darkred
+color: #0BEE0B;
+color: rgb(76, 125, 59); 
+color: rgba(255, 22, 5, 0.175) 
+color: hsl(130, 61%, 44%);
+background-color: rgb(76, 125, 59); */
