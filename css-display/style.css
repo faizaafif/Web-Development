@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px;
+    margin:  34px;
+    width: 95px;
+    text-transform: capitalize;
+    color: maroon;
+
+}
+
+.box2{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 34px;
+    width: 190px;
+    text-transform: uppercase;
+    color: darkred;
+}
