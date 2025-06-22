@@ -1,0 +1,9 @@
+nav ul li{
+    background-color: rgb(99, 152, 199);
+    /* list-style:disc inside url(/media/IMG_2670.MP4); */
+    /* list-style-type:lower-roman; */
+    text-transform: capitalize;
+    list-style: inside;
+    list-style-type: "🥰";
+    /* list-style-image: url(/media/IMG_0202.JPG); */
+}
