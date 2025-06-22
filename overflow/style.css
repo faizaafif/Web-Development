@@ -1,0 +1,10 @@
+.box{
+    background-color: aqua;
+    border: 2px solid black;
+    /* overflow: scroll; */
+    overflow: scroll;
+    width: 30vw;
+    height: 30vh;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+}
