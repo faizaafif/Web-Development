@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+body {
+    background-color: gray;
+    padding: 45px;
+    display: flex;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 0 0 34px 0;
+    background-color: white;
+    margin: auto;
+    align-self: center;
+    height: 80vh;
+    width: 24vw;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    border: 2px solid black;
+    list-style-type: none;
+    height: 2vh;
+    width: 3vw;
+    justify-content: center;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+img {
+    border-radius: 50px;
+    height: 40vh;
+    margin: auto;
+    padding: 1  5px;
+    width: 20vw;
+    position: relative;
+    justify-content: center;
+    display: block;
+}
+
+.button button {
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 8px;
+}
+
+p {
+    padding: 8px;
+}
