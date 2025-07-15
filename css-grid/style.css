@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    border: 2px solid brown;
+    /* grid-template-columns: 20px;
+    grid-template-rows: 20px; */
+}
+
+.container {
+    border: 2px solid black;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px;
+    display: grid;
+    height: 80vh;
+    width: 80vw;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.item4{
+    grid-row: 1/2;
+    
+}
