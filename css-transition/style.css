@@ -1,0 +1,23 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: turquoise;
+    height: 50vh;
+    width: 50vw;
+}
+
+.box{
+    background-color: beige;
+    height: 5vh;
+    width: 5vw;
+    margin: 2px;
+    padding: 2px;
+    transition-property: transform;
+    transition-duration: 5s;
+    transition-delay: 4s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.transform{
+    transform: translateX(100px) translateY(100px);
+}
