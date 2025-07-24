@@ -1,0 +1,108 @@
+.wrap {
+    margin: 30px auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    row-gap: 60px;
+    column-gap: 60px;
+    justify-content: center;
+    perspective: 800px;
+}
+
+.blue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: rgba(56, 207, 248, 0.5);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transform-style: preserve-3d;
+}
+
+.scaleX:hover{
+    transform: scaleX(2);;
+    transition: transform 0.5s ease;
+}
+
+.scaleY:hover{
+    transform: scaleY(2);;
+    transition: transform 0.5s ease;
+}
+
+.scale:hover{
+    transform: scale(2);;
+    transition: transform 0.5s ease;
+}
+
+.translateX:hover{
+    transform: translateX(50px);
+    transition: transform 0.5s ease;
+}
+.translateY:hover{
+    transform: translateY(50px);
+    transition: transform 0.5s ease;
+}
+.translate:hover{
+    transform: translate(50px);
+    transition: transform 0.5s ease;
+}
+
+.matrix:hover{
+    transform: matrix(0.5, 0.5, 1, 0, 1, 0.5);
+    transition: transform 0.5s ease;
+}
+
+.rotate:hover{
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.skew:hover{
+    transform: skew(20deg, 10deg);
+    transition: transform 0.5s ease;
+}
+
+.skewX:hover{
+    transform: skewX(20deg);
+    transition: transform 0.5s ease;
+}
+
+.skewY:hover{
+    transform: skewY(20deg);
+    transition: transform 0.5s ease;
+}
+
+.matrix3d:hover{
+    transform: matrix3d(
+    1, 0, 0, 0,
+    0, 1, 0, 0,
+    0, 0, 1, 0,
+    0, 0, 300, 1 /* 👈 Push element 300px toward viewer */
+  );
+    transition: transform 0.5s ease;
+}
+
+.translate3d:hover{
+    transform: translate3d(50deg);
+    transition: transform 0.5s ease;
+}
+
+.translateZ:hover {
+  transform: translateZ(100px);
+  transition: transform 0.5s ease;
+  perspective: 500px;
+}
+
+.rotateX:hover {
+  transform: rotateX(180deg);
+  transition: transform 0.5s ease;
+}
+
+.rotateY:hover{
+    transform: rotateY(90deg);
+    transition: transform 0.5s ease;
+}
