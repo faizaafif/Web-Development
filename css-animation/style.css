@@ -1,0 +1,38 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(80, 143, 199);
+    height: 50vh;
+    width: 50vw;
+}
+
+.box{
+    height: 5vh;
+    width: 5vw;
+    animation: animate 5s ease 1s 2 alternate-reverse,
+            transform 5s ease 1s 2 alternate;
+}
+
+@keyframes animate {
+    from{
+        background-color: rgb(226, 226, 63);
+    }
+    to{
+        background-color: chocolate;
+    }
+}
+
+@keyframes transform {
+    0%{
+        transform: rotate(90deg);
+    }
+    25%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
