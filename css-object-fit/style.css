@@ -1,0 +1,12 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    object-position: top right;
+}
